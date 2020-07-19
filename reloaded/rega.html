@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MP POLICE CITIZEN PORTAL</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/resstyle.css">
+  <link rel="stylesheet" href="css/form4.css">
+
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html">
+              <h1>MP POLICE CITIZEN PORTAL</h1>
+            </a>
+            <p>
+              <img src="images/star-k-logo.png" alt="Kosher certification">
+              <span style="color:#4287f5">Desh Bhakti Jan Seva</span>
+            </p>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li class="visible-xs active">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
+
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="	glyphicon glyphicon-question-sign"></span><br class="hidden-xs"> Help</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:410-602-5008">
+                <span>+91 911-888-4444</span></a>
+              <div>*Helpline Number</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <div class="navbar" id="hulu">
+    <div class="col-md-2 col-sm-4 col-xs-12">
+
+      <a href="index.html">Main page</a>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-12">
+
+      <a href="#home">User directory</a>
+    </div>
+
+    <div class="col-md-2 col-sm-4 col-xs-12">
+
+      <a href="#home">Information for the police</a>
+    </div>
+
+    <div class="col-md-2 col-sm-4 col-xs-12">
+
+      <a href="#home">Civil services</a>
+    </div>
+
+    <div class="col-md-2 col-sm-4 col-xs-12">
+
+      <a href="#home">FAQsAbout the portal</a>
+    </div>
+
+    <div class="col-md-2 col-sm-4 col-xs-12">
+
+      <a href="#home">E-form download</a>
+    </div>
+  </div>
+
+
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:+91 911-888-4444">
+      <span class="glyphicon glyphicon-phone"></span>
+      +91 911-888-4444
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">*Helpline Number</div>
+
+
+
+  <!-- REGSTRATION FORM-->
+
+  <div class="wrapper">
+      <div class="title">
+        <u>Registration Form</u>
+      </div>
+      <div class="form">
+         <div class="inputfield">
+            <label>First Name</label>
+            <input type="text" class="input" id="first">
+         </div>
+          <div class="inputfield">
+            <label>Last Name</label>
+            <input type="text" class="input" id="last">
+         </div>
+
+          <div class="inputfield">
+            <label>Phone Number</label>
+            <input type="tel" class="input" id="phone">
+         </div>
+
+         <div class="inputfield">
+            <label>Email Address</label>
+            <input type="email" class="input" id="email">
+         </div>
+        <div class="inputfield">
+            <label>Password</label>
+            <input type="password" class="input" id="pass">
+         </div>
+          <div class="inputfield">
+            <label>Confirm Password</label>
+            <input type="password" class="input" id="Cpass">
+         </div>
+         <div class="inputfield">
+            <label>State</label>
+            <input type="text" class="input" id="state">
+         </div>
+          <div class="inputfield">
+            <label>Gender</label>
+            <div class="custom_select">
+              <select id="gender">
+                <option value="">Select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                 <option value="">Transgender</option>
+              </select>
+            </div>
+         </div>
+
+          <div class="inputfield">
+            <label>District</label>
+            <div class="custom_select">
+              <select>
+                 <option disabled="displayed" selected="selected">---Choose District--- </option>
+
+                       <option>Bhopal district</option>
+                         <option>Raisen district</option>
+                        <option>Rajgarh district</option>
+                          <option>Sehore district</option>
+                          <option>Vidisha district</option>
+                          <option>Morena district</option>
+                          <option>Sheopur district</option>
+                          <option>Bhind district</option>
+                          <option>Gwalior district</option>
+                          <option>Ashoknagar district</option>
+                          <option>Shivpuri district</option>
+                          <option>Datia district</option>
+                          <option>Guna district</option>
+                          <option>Alirajpur district</option>
+                          <option>Barwani district</option>
+                          <option>Burhanpur district</option>
+                          <option>Indore district</option>
+                          <option>Dhar district</option>
+                          <option>Jhabua district</option>
+                          <option>Khandwa district</option>
+                          <option>Khargone district</option>
+                          <option>Balaghat district</option>
+                          <option>Chhindwara district</option>
+                          <option>Jabalpur district</option>
+                          <option>Katni district</option>
+                          <option>Mandla district</option>
+                          <option>Narsinghpur district</option>
+                          <option>Seoni district</option>
+                          <option>Dindori district</option>
+                          <option>Betul district</option>
+                          <option>Harda district</option>
+                          <option>Hoshangabad district</option>
+                          <option>Rewa district</option>
+                          <option>Satna district</option>
+                          <option>Sidhi district</option>
+                          <option>Singrauli district</option>
+                          <option>Chhatarpur district</option>
+                          <option>Damoh district</option>
+                          <option>Panna district</option>
+                          <option>Sagar district</option>
+                          <option>Tikamgarh district</option>
+                          <option>Niwari district</option>
+                          <option>Anuppur district</option>
+                          <option>Shahdol district</option>
+                          <option>Umaria district</option>
+                          <option>Agar Malwa district</option>
+                          <option>Dewas district</option>
+                          <option>Mandsaur district</option>
+                          <option>Neemuch district</option>
+                          <option>Ratlam district</option>
+                          <option>Shajapur district</option>
+                          <option>Ujjain district</option>
+
+              </select>
+            </div>
+         </div>
+
+
+
+        <div class="inputfield">
+            <label>Address</label>
+            <textarea class="textarea" id="address"></textarea>
+         </div>
+        <div class="inputfield">
+            <label>Aadhar Number</label>
+            <input type="text" class="input" id="aadhar">
+         </div>
+
+
+
+        <div class="inputfield terms">
+            <label class="check">
+              <input type="checkbox">
+              <span class="checkmark"></span>
+            </label>
+            <p>Agreed to terms and conditions</p>
+         </div>
+
+        <div class="inputfield">
+          <input type="submit" value="Register" class="btn" id="inp">
+        </div>
+      </div>
+  </div>
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>HELPLINE:</span><br>
+          women helpline:<br>
+          child helpline:<br>
+          OSHO helpline:
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          ABESIT GHAZIABAD
+          <p>tu na aaana iss desh meri laado</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"feeling proud indian army jung kai maidain me kade na haar de"</p>
+          <p>"zindgi ne zindgi bhar gum diye"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright Government of Madhya Pradesh 2020</div>
+    </div>
+  </footer>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <!-- <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script> -->
+
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-analytics.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-functions.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-storage.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCUihnz_5IpZf1ebfn9qKKnQhGVB9fkInQ",
+        authDomain: "sih2020-880e9.firebaseapp.com",
+        databaseURL: "https://sih2020-880e9.firebaseio.com",
+        projectId: "sih2020-880e9",
+        storageBucket: "sih2020-880e9.appspot.com",
+        messagingSenderId: "459850698683",
+        appId: "1:459850698683:web:32179ec1b5277b32c43e9e",
+        measurementId: "G-0WF97D07E4"
+      };
+      firebase.initializeApp(config);
+      firebase.analytics();
+      // make auth and firestore references
+      const auth = firebase.auth();
+      const db = firebase.firestore();
+
+            // db.settings({
+      // timestampsInSnapshots: true
+      // });
+    </script>
+    <script src="js/input.js" charset="utf-8"></script>
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/script.js"></script> -->
+
+</body>
+
+</html>

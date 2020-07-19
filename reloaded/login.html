@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MP POLICE CITIZEN PORTAL</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/resstyle.css">
+  <link rel="stylesheet" href="css/login.css">
+
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html">
+              <h1>MP POLICE CITIZEN PORTAL</h1>
+            </a>
+            <p>
+              <img src="images/star-k-logo.png" alt="Kosher certification">
+              <span style="color:#4287f5">Desh Bhakti Jan Seva</span>
+            </p>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li class="visible-xs active">
+              <a href="index.html">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
+
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="	glyphicon glyphicon-question-sign"></span><br class="hidden-xs"> Help</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:410-602-5008">
+                <span>+91 911-888-4444</span></a>
+              <div>*Helpline Number</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <div class="navbar" id="hulu">
+    <div class="col-md-2 col-sm-4 col-xs-12">
+
+      <a href="index.html">Main page</a>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-12">
+
+      <a href="#home">User directory</a>
+    </div>
+
+    <div class="col-md-2 col-sm-4 col-xs-12">
+
+      <a href="#home">Information for the police</a>
+    </div>
+
+    <div class="col-md-2 col-sm-4 col-xs-12">
+
+      <a href="#home">Civil services</a>
+    </div>
+
+    <div class="col-md-2 col-sm-4 col-xs-12">
+
+      <a href="#home">FAQsAbout the portal</a>
+    </div>
+
+    <div class="col-md-2 col-sm-4 col-xs-12">
+
+      <a href="#home">E-form download</a>
+    </div>
+  </div>
+
+
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:+91 911-888-4444">
+      <span class="glyphicon glyphicon-phone"></span>
+      +91 911-888-4444
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">*Helpline Number</div>
+
+
+
+  <!-- LOGIN FORM-->
+
+  <div class="wrapper">
+      <div class="title">
+        <u>Login Form</u>
+      </div>
+      <div class="form">
+
+         <div class="inputfield">
+            <label>Email Address</label>
+            <input type="email" class="input" id="email">
+         </div>
+        <div class="inputfield">
+            <label>Password</label>
+            <input type="password" class="input" id="pass">
+         </div>
+
+        <div class="inputfield">
+          <input type="submit" value="Login" class="btn" id="inp">
+        </div>
+      </div>
+      <div class="form-group d-flex align-items-center justify-content-between mt-4 mb-0">
+          <a class="small" href="#">Forgot Password?</a>
+
+      </div>
+  </div>
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>HELPLINE:</span><br>
+          women helpline:<br>
+          child helpline:<br>
+          OSHO helpline:
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          ABESIT GHAZIABAD
+          <p>tu na aaana iss desh meri laado</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"feeling proud indian army jung kai maidain me kade na haar de"</p>
+          <p>"zindgi ne zindgi bhar gum diye"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright Government of Madhya Pradesh 2020</div>
+    </div>
+  </footer>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <!-- <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script> -->
+
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-analytics.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-functions.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-storage.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCUihnz_5IpZf1ebfn9qKKnQhGVB9fkInQ",
+        authDomain: "sih2020-880e9.firebaseapp.com",
+        databaseURL: "https://sih2020-880e9.firebaseio.com",
+        projectId: "sih2020-880e9",
+        storageBucket: "sih2020-880e9.appspot.com",
+        messagingSenderId: "459850698683",
+        appId: "1:459850698683:web:32179ec1b5277b32c43e9e",
+        measurementId: "G-0WF97D07E4"
+      };
+      firebase.initializeApp(config);
+      firebase.analytics();
+      // make auth and firestore references
+      const auth = firebase.auth();
+      const db = firebase.firestore();
+
+            // db.settings({
+      // timestampsInSnapshots: true
+      // });
+    </script>
+    <script src="js/login.js" charset="utf-8"></script>
+
+    <script type="text/javascript">
+    auth.onAuthStateChanged(user => {
+    if (user)
+    {
+
+        console.log("user")
+    //  window.location.assign('index.html')
+      }
+
+    else
+    {
+console.log("Signed out")
+    }
+    });
+    </script>
+
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/script.js"></script> -->
+
+</body>
+
+</html>
