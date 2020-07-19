@@ -6,7 +6,7 @@ function writeData() {
   //personal details
   var first = document.getElementById("first").value;
   var last  = document.getElementById("last").value;
-  var mobile = document.getElementById("phone").value;
+  var mobile = document.getElementById("mob").value;
   var email = document.getElementById("email").value;
 
   var gender = document.getElementById("gender").value;

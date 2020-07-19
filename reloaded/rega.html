@@ -127,7 +127,7 @@
 
           <div class="inputfield">
             <label>Phone Number</label>
-            <input type="tel" class="input" id="phone">
+            <input type="number" class="input" id="mob" maxlength="10">
          </div>
 
          <div class="inputfield">
@@ -315,6 +315,35 @@
       // });
     </script>
     <script src="js/input.js" charset="utf-8"></script>
+
+    <script>
+	    const btn = document.getElementById('inp')
+
+	    btn.addEventListener('click', () => {
+
+	      const rec = document.getElementById('mob').value
+        console.log(rec)
+	      // const text = document.getElementById('message').value
+	      const name1 = document.getElementById('first').value
+	      const name2 = document.getElementById('last').value
+				const name= name1 + ' ' + name2;
+
+	      fetch("https://allahmeetsram.herokuapp.com/sms", {
+	        method: 'post',
+	        headers: {
+	          'Accept': 'application/json',
+	          'Content-Type': 'application/json'
+	        },
+	        body: JSON.stringify({
+	          body: 'Your registration is complete' + ' ' +  name,
+	          from: '+12672143344',
+	          to: '+91' + rec
+	        })
+	      }).then(function(response) {
+	        return response.json()
+	      }).then(data => console.log(data))
+	});
+	  </script>
 
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
